@@ -1,0 +1,161 @@
+/* Reset */
+body, h1, h2, p, form, textarea, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom right, #6a11cb, #2575fc);
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+/* Container */
+.container {
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    max-width: 800px;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    background: #333;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+header .nickname {
+    color: #ff6347;
+    font-weight: bold;
+}
+
+/* Main Content */
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.content {
+    text-align: left;
+}
+
+label.form-label {
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: block;
+}
+
+/* Form */
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 16px;
+    resize: vertical;
+    outline: none;
+}
+
+textarea:focus {
+    border-color: #2575fc;
+    box-shadow: 0 0 8px rgba(37, 117, 252, 0.5);
+}
+
+/* Buttons */
+.buttons {
+    margin-top: 15px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+button.primary-btn {
+    background-color: #6a11cb;
+    color: #fff;
+}
+
+button.primary-btn:hover {
+    background-color: #2575fc;
+}
+
+button.secondary-btn {
+    background-color: #ddd;
+    color: #333;
+}
+
+button.secondary-btn:hover {
+    background-color: #bbb;
+}
+
+/* Result Box */
+.result-box {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+}
+
+/* Aside Section */
+.image {
+    background: #eee;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+}
+
+.image h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.image p {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.image .nickname {
+    color: #6a11cb;
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    margin-top: 20px;
+    background: #333;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+footer .nickname {
+    color: #ff6347;
+}
